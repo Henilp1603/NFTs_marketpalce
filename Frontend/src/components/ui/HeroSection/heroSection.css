@@ -1,0 +1,163 @@
+.hero__section{
+    margin-top: 120px;
+}
+
+.hero__content h2{
+    line-height: 58px;
+    font-size: 3.9rem;
+}
+
+.hero__content h2 span{
+    background: linear-gradient(-45deg,#E250E5,#4B50E6,#E250E5,#4B50E6);
+    background-size:100% 100% ;
+    background-clip: text;
+    -webkit-text-stroke: 3px transparent;
+    -webkit-text-fill-color: #14141f;
+    padding-right: 7px;
+    display: inline-block;
+    margin-top: 7px;
+
+}
+
+.hero__content p{
+    font-size: 1.1rem;
+    margin-top: 30px;
+}
+.hero_btn{
+    margin-top: 30px;
+}
+
+.hero_btn button{
+    border: none;
+    outline: none;
+    padding: 10px 35px !important ;
+    border-radius: 50px !important ;
+    border: 1px solid #5142FC !important ;
+    font-size: .9rem;
+    background: transparent;
+}
+
+.hero_btn button a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.hero_btn button i{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.hero_btn button a:hover{
+    color: #fff;
+}
+
+.hero_img{
+    width: 500px;
+    margin-left: auto;
+}
+
+.hero_img img{
+    border-radius: 7px;
+}
+
+.Right{
+    display: flex;
+    flex: 1;
+}
+
+.hero__right{
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(45deg);
+    margin-left: 110px;
+    margin-top: 25px;
+}
+.r_item{
+    height: 220px;
+    width: 220px;
+    overflow: hidden;
+    margin: 6px;
+    transform: rotate(-45deg);
+    border: 3px solid white;
+    border-radius: 12px;
+    
+}
+.r_item img{
+    height: 220px;
+    object-fit: contain;
+    display: block;
+}
+
+
+@media only screen and (max-width:768px)  {
+
+    .hero__right{
+        width: 100%;
+        margin-left: 40px;
+        margin-top: 110px;
+    }
+    .r_item{
+        height: 130px;
+        width: 130px;
+        margin: 6px;
+        overflow: hidden;
+       
+        
+    }
+    .r_item img{
+        height: 130px;
+        object-fit: contain;
+    }
+
+    .hero__content h2{
+        line-height: 69px;
+
+    }
+
+    .hero__content p{
+
+        line-height: 30px;
+    }
+
+    .hero__section{
+        margin-top: 70px;
+    }
+    
+}
+
+@media only screen and (max-width:576px)  {
+
+    .hero__right{
+        width: 100%;
+        margin-left: 40px;
+        margin-top: 110px;
+    }
+    .r_item{
+        height: 150px;
+        width: 150px;
+        margin: 6px;
+        overflow: hidden;
+       
+        
+    }
+    .r_item img{
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .hero__content h2{
+        line-height: 69px;
+
+    }
+
+    .hero__content p{
+
+        line-height: 30px;
+    }
+
+    .hero__section{
+        margin-top: 70px;
+    }
+    
+}
